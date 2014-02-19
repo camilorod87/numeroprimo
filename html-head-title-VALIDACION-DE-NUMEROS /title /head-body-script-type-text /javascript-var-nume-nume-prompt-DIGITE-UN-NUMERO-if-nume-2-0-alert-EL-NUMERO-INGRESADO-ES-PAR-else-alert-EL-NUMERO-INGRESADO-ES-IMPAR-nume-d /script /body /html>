@@ -4,16 +4,16 @@
 </head>
 <body>
 <script type ="text/javascript">
-var nume
-nume=prompt('DIGITE UN NUMERO','');
-if (nume%2==0) 
-  {
-    alert('EL NUMERO INGRESADO ES PAR');
-  }
-
-   else {
-    alert('EL NUMERO INGRESADO ES IMPAR')+nume+('d');}
-
+var nume = 0;
+nume = prompt('DIGITE UN NUMERO','');
+if (nume % 2==0) 
+{
+           alert('EL NUMERO INGRESADO ES PAR');
+}
+else
+{
+           alert("EL NUMERO "+(nume)+" ES IMPAR");
+}
 </script>
 </body>
 </html>
